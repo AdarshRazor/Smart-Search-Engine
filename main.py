@@ -15,15 +15,15 @@ Word_Tagging = wikipedia.search(Topic)
 print("\n",Topic,"\n","\n",result,"\n")
 
 # storing word tagged data in file
-'''file_thing = open("{}.txt".format(Topic), "w")
+file_thing = open("{}.txt".format(Topic), "w")
 for x in Word_Tagging:
-    file_thing.write(x + "\n")'''
+    file_thing.write(x + "\n")
 
-# file_thing = open("{}.txt".format(Topic), "r")
-# Related= input("Want to see realted results ? (Y/N): ")
-# if Related == "Y":
-#     print("Related Topics:\n",file_thing.read())
-#     file_thing.close()
+file_thing = open("{}.txt".format(Topic), "r")
+Related= input("Want to see realted results ? (Y/N): ")
+if Related == "Y":
+    print("Related Topics:\n",file_thing.read())
+    file_thing.close()
 
 # chunking the tagged word for better result.
 
