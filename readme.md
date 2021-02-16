@@ -8,9 +8,9 @@ For this project I used [Python3](https://www.python.org/downloads/release/pytho
 
 Use the command to install the reqired modules:
 
-..* Python2: pip install -r requirements.txt
+* Python2: pip install -r requirements.txt
 
-..* Python3: pip3 install -r requirements.txt
+* Python3: pip3 install -r requirements.txt
 
 Open command line in the folder ( CTRL + L )
 
